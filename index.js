@@ -1,6 +1,6 @@
 const imaps = require('imap-simple');
 const { simpleParser } = require('mailparser');
-const { createClient } = require('@supabase/supabase-client');
+const { createClient } = require('@supabase/supabase-js');
 
 const supabase = createClient('https://udcxtupppnuhprocloyi.supabase.co', 'sb_publishable_AYjH9uTSTo026yHni97KGA_srQVH-hX');
 
